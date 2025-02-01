@@ -1,8 +1,21 @@
 package wiki;
 
+import com.codeborne.selenide.ElementsCollection;
+import com.codeborne.selenide.Selenide;
+import com.codeborne.selenide.SelenideElement;
+import com.codeborne.selenide.WebDriverRunner;
+import core.BaseSelenideTest;
 import org.junit.jupiter.api.Test;
 
-public class WikiTest.BaseSelenideTest {
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
+import java.util.stream.Collectors;
+
+import static com.codeborne.selenide.Selenide.$$x;
+
+
+public class WikiTest extends BaseSelenideTest {
     private final static String URL = "https://ru.wikipedia.org/wiki/Java";
 
     @Test
