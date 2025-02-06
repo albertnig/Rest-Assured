@@ -158,5 +158,4 @@ public class ReqresPojoTest {
         Assertions.assertEquals(profileTime,currentTime);
     }
 
-
 }
