@@ -157,5 +157,4 @@ public class ReqresPojoTest {
         System.out.println("Time2 " + profileTime);
         Assertions.assertEquals(profileTime,currentTime);
     }
-
 }
