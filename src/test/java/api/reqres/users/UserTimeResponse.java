@@ -16,5 +16,4 @@ public class UserTimeResponse extends UserTime {
     public String getUpdatedAt() {
         return updatedAt;
     }
-
 }
